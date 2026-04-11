@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitYantra Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: white;
+    }
+    header {
+      background: #1e293b;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+      display: grid;
+      gap: 20px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: none;
+    }
+    button {
+      background: #22c55e;
+      color: white;
+      cursor: pointer;
+    }
+    .progress-bar {
+      background: #334155;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 10px;
+      margin-top: 5px;
+    }
+    .progress {
+      height: 10px;
+      background: #22c55e;
+      width: 50%;
+    }
+  </style>
+</head>
+<body><header>FitYantra Dashboard</header><div class="container">  <!-- Login -->  <div class="card">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email" id="email">
+    <input type="password" placeholder="Password" id="password">
+    <button onclick="login()">Login</button>
+    <p id="loginMsg"></p>
+  </div>  <!-- Stats -->  <div class="grid">
+    <div class="card"><h3>Steps</h3><p id="steps">0</p></div>
+    <div class="card"><h3>Calories</h3><p id="calories">0 kcal</p></div>
+    <div class="card"><h3>Water Intake</h3><p id="water">0 L</p></div>
+    <div class="card"><h3>Workout</h3><p id="workout">0 min</p></div>
+  </div>  <!-- Input Data -->  <div class="card">
+    <h2>Update Data</h2>
+    <input type="number" placeholder="Steps" id="inputSteps">
+    <input type="number" placeholder="Calories" id="inputCalories">
+    <input type="number" placeholder="Water (L)" id="inputWater">
+    <input type="number" placeholder="Workout Minutes" id="inputWorkout">
+    <button onclick="updateData()">Update</button>
+  </div>  <!-- Macronutrients -->  <div class="card">
+    <h2>Macros Tracker</h2>
+    <p>Carbohydrates</p>
+    <div class="progress-bar"><div id="carbsBar" class="progress"></div></div><p>Protein</p>
+<div class="progress-bar"><div id="proteinBar" class="progress"></div></div>
+
+<p>Fats</p>
+<div class="progress-bar"><div id="fatsBar" class="progress"></div></div>
+
+  </div>  <!-- BMI + TDEE -->  <div class="card">
+    <h2>Health Calculator</h2>
+    <input type="number" placeholder="Weight (kg)" id="weight">
+    <input type="number" placeholder="Height (cm)" id="height">
+    <input type="number" placeholder="Age" id="age">
+    <button onclick="calculateHealth()">Calculate</button>
+    <button onclick="generateRecommendation()">Get AI Recommendation</button>
+    <p id="bmi"></p>
+    <p id="tdee"></p>
+    <p id="ai"></p>
+
+  </div>  <!-- Diet Plan -->  <div class="card">
+    <h2>Diet Plan</h2>
+    <ul>
+      <li>Breakfast: Oats + Fruits</li>
+      <li>Lunch: Rice + Dal + Vegetables</li>
+      <li>Dinner: Roti + Paneer/Chicken</li>
+    </ul>
+  </div></div><script>
+function login() {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  const msg = document.getElementById("loginMsg");
+
+  if(email && password) {
+    msg.innerText = "Login Successful ✅";
+  } else {
+    msg.innerText = "Enter valid details ❌";
+  }
+}
+
+function updateData() {
+  document.getElementById("steps").innerText = document.getElementById("inputSteps").value;
+  document.getElementById("calories").innerText = document.getElementById("inputCalories").value + " kcal";
+  document.getElementById("water").innerText = document.getElementById("inputWater").value + " L";
+  document.getElementById("workout").innerText = document.getElementById("inputWorkout").value + " min";
+}
+
+function calculateHealth() {
+  let w = document.getElementById("weight").value;
+  let h = document.getElementById("height").value / 100;
+  let age = document.getElementById("age").value;
+
+  let bmi = (w / (h*h)).toFixed(2);
+  let tdee = (10*w + 6.25*(h*100) - 5*age + 5).toFixed(0);
+  
+  document.getElementById("bmi").innerText = "BMI: " + bmi;
+  document.getElementById("tdee").innerText = "TDEE: " + tdee + " kcal";
+  
+}
+function generateRecommendation() {
+  let w = document.getElementById("weight").value;
+  let h = document.getElementById("height").value / 100;
+  let age = document.getElementById("age").value;
+
+  let bmi = (w / (h*h)).toFixed(2);
+  let tdee = (10*w + 6.25*(h*100) - 5*age + 5).toFixed(0);
+
+  let result = "";
+
+  // BMI-based logic
+  if (bmi < 18.5) {
+    result += "🧠 You are UNDERWEIGHT\n";
+    result += "🍽️ Diet: Increase calories (milk, banana, rice, paneer)\n";
+    result += "🏋️ Exercise: Strength training (gym, push-ups)\n";
+  }
+  else if (bmi >= 18.5 && bmi < 25) {
+    result += "🧠 You are NORMAL\n";
+    result += "🍽️ Diet: Balanced (roti, dal, vegetables, fruits)\n";
+    result += "🏃 Exercise: Cardio + light strength\n";
+  }
+  else {
+    result += "🧠 You are OVERWEIGHT\n";
+    result += "🍽️ Diet: Low calorie (salads, oats, grilled food)\n";
+    result += "🔥 Exercise: Cardio (running, skipping, cycling)\n";
+  }
+
+  // Water recommendation
+  let water = (w * 0.033).toFixed(2);
+  result += `💧 Water Intake: ${water} Litres/day\n`;
+
+  // Calories goal
+  result += `🔥 Daily Calories Goal: ${tdee} kcal\n`;
+
+  document.getElementById("ai").innerText = result;
+}
+</script></body>
+</html>
