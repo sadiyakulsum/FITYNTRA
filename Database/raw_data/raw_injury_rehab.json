@@ -1,0 +1,475 @@
+[
+  {
+    "source_type": "physiopedia_scrape",
+    "source_url": "https://www.physio-pedia.com/Patellofemoral_Pain_Syndrome",
+    "title": "Patellofemoral Pain Syndrome",
+    "body_text": "Patellofemoral pain syndrome (PFPS) is a broad term used to describe pain in the front of the knee and around the patella. It is sometimes called runner's knee or jumper's knee. PFPS is a common complaint of physically active people. The pain is generally felt in the peripatellar region. Symptoms typically worsen with activities that load the patellofemoral joint in a flexed position, such as running, squatting, and stair climbing. Conservative management includes activity modification, quadriceps strengthening, hip strengthening, patellar taping, and foot orthoses. VMO activation exercises are considered important. Deep squats beyond 90 degrees and the leg extension machine should be avoided in the acute phase. Recommended exercises include: quad sets, straight leg raise, mini squat (0-45 degrees), terminal knee extension, step-up. Hip abductor and external rotator strengthening has been shown to reduce patellofemoral pain.",
+    "categories": [
+      "Knee",
+      "Sports Injuries",
+      "Overuse Injuries"
+    ],
+    "icd_code": "M22.2",
+    "references": [
+      "Crossley et al. 2016 BJSM",
+      "Barton et al. 2015"
+    ],
+    "avoid_list_raw": "deep squats, leg extension machine, running (acute), stairs, plyometrics",
+    "rehab_phase": null
+  },
+  {
+    "source_type": "physiopedia_scrape",
+    "source_url": "https://www.physio-pedia.com/Anterior_Cruciate_Ligament_Injury",
+    "title": "ACL Injury and Reconstruction",
+    "body_text": "The anterior cruciate ligament (ACL) is one of the major knee ligaments. ACL tears typically occur during sports that involve sudden stops, jumping, or changes in direction. Post-surgical rehabilitation follows a staged protocol. Phase 1 (0-2 weeks): protect the graft, reduce swelling, restore range of motion. Exercises: quad sets, straight leg raise, ankle pumps. Phase 2 (2-6 weeks): progressive weight bearing, stationary cycling, leg press (0-60 degrees). Phase 3 (6-12 weeks): strengthening, proprioception, return to jogging. Phase 4 (12+ weeks): sport-specific training, hop testing. Open-chain knee extension 0-60 degrees is contraindicated in early phases to protect the graft. Return to sport should not occur before 9-12 months. Single-leg squat symmetry index should be >90% before return.",
+    "categories": [
+      "Knee",
+      "Ligament Injuries",
+      "Post-surgical"
+    ],
+    "icd_code": "S83.5",
+    "references": [
+      "JOSPT CPG ACL 2021",
+      "Grindem et al. 2016"
+    ],
+    "avoid_list_raw": "open chain knee extension 0-60 degrees, pivoting, cutting, jumping (early), contact sport",
+    "rehab_phase": null
+  },
+  {
+    "source_type": "physiopedia_scrape",
+    "source_url": "https://www.physio-pedia.com/Rotator_Cuff_Tear",
+    "title": "Rotator Cuff Tear / Injury",
+    "body_text": "The rotator cuff consists of four muscles: supraspinatus, infraspinatus, teres minor, and subscapularis. Partial and full-thickness tears can occur from acute trauma or degenerative changes. Conservative management is recommended for partial tears and small full-thickness tears. Avoid overhead pressing, upright rows, behind-neck exercises, and wide-grip bench press. Rehabilitation focuses on rotator cuff strengthening in pain-free range, scapular stability, and posterior capsule stretching. Isometric rotator cuff exercises should be used in the acute phase. External rotation strengthening (side-lying ER, band ER) is the cornerstone of conservative management. Suggested supplements: fish oil 3g, collagen 10g with Vitamin C.",
+    "categories": [
+      "Shoulder",
+      "Rotator Cuff",
+      "Muscle Injuries"
+    ],
+    "icd_code": "M75.1",
+    "references": [
+      "AAOS 2019",
+      "Yamamoto et al. 2010"
+    ],
+    "avoid_list_raw": "overhead press, upright row, behind-neck press, wide-grip bench, kipping pull-ups",
+    "rehab_phase": null
+  },
+  {
+    "source_type": "physiopedia_scrape",
+    "source_url": "https://www.physio-pedia.com/Achilles_Tendinopathy",
+    "title": "Achilles Tendinopathy",
+    "body_text": "Achilles tendinopathy refers to a clinical syndrome characterised by pain, swelling and functional limitation of the Achilles tendon. It can be classified as mid-portion or insertional. The Alfredson eccentric heel drop protocol is the most well-researched conservative treatment. Protocol: 3 sets of 15 repetitions twice daily on a step, with both straight knee and bent knee variations. Isometric loading (5 x 45 seconds at 70% MVC) is also evidence-based. Avoid running, plyometrics, and aggressive calf stretching in the acute phase. Thompson test should be performed to rule out complete rupture. Collagen supplementation (15g with Vitamin C 30 min before exercise) may support tendon healing.",
+    "categories": [
+      "Ankle",
+      "Tendinopathy",
+      "Overuse"
+    ],
+    "icd_code": "M76.6",
+    "references": [
+      "Alfredson 1998",
+      "BJSM Tendinopathy 2021",
+      "Cook & Purdam 2009"
+    ],
+    "avoid_list_raw": "running, plyometrics, jumping, aggressive calf stretch (acute), barefoot running",
+    "rehab_phase": null
+  },
+  {
+    "source_type": "physiopedia_scrape",
+    "source_url": "https://www.physio-pedia.com/Lumbar_Disc_Herniation",
+    "title": "Lumbar Disc Herniation",
+    "body_text": "A lumbar disc herniation occurs when the nucleus pulposus herniates through the annulus fibrosus. Common levels: L4-L5 and L5-S1. Symptoms include local back pain with or without radiculopathy. McKenzie extension exercises (prone press-ups) are first-line conservative treatment for posterolateral herniations. Avoid all lumbar flexion exercises including crunches, sit-ups, bent-over rows, and heavy deadlifts. Spinal flexion exercises are contraindicated in the acute phase. Core stabilisation (bird dog, dead bug) should be prioritised over spinal flexion. Red flags: saddle anaesthesia, bilateral leg weakness, bladder/bowel dysfunction - require immediate surgical consultation.",
+    "categories": [
+      "Spine",
+      "Disc Injury",
+      "Lower Back"
+    ],
+    "icd_code": "M51.1",
+    "references": [
+      "McKenzie Institute",
+      "Spine Journal 2022"
+    ],
+    "avoid_list_raw": "sit-ups, crunches, bent-over row, deadlift (acute), good morning, leg press heavy, seated leg curl",
+    "rehab_phase": null
+  },
+  {
+    "source_type": "jospt_cpg",
+    "guideline_id": "JOSPT-2021-ANKLE",
+    "condition": "Ankle Lateral Sprain",
+    "icd_code": "S93.4",
+    "recommendation_grade": "A",
+    "evidence_level": "I",
+    "recommendation_text": "For individuals with acute lateral ankle sprain, clinicians should use the Ottawa Ankle Rules to determine if radiographs are required. RICE protocol for first 48 hours. Supervised exercise therapy including proprioceptive training is recommended over passive treatment alone. Early weight-bearing is encouraged when pain allows. Manual therapy to the ankle and subtalar joint may reduce pain and improve function.",
+    "avoid_exercises_raw": "running, jumping, agility drills, heavy loaded calf raise (acute)",
+    "phase_1": "RICE 48h, ankle alphabet, towel scrunches, gentle dorsiflexion",
+    "phase_2": "Single-leg balance, BOSU, calf raise (bilateral), partial jogging",
+    "phase_3": "Lateral band walk, agility ladder, return to sport (4-8 weeks)",
+    "supplement_note": "Bromelain for swelling, Vitamin C for healing",
+    "source_citation": "Martin et al. JOSPT 2021;51(4):CPG1-CPG80"
+  },
+  {
+    "source_type": "jospt_cpg",
+    "guideline_id": "JOSPT-2020-HAMSTRING",
+    "condition": "Hamstring Muscle Injury",
+    "icd_code": "S76.3",
+    "recommendation_grade": "A",
+    "evidence_level": "I",
+    "recommendation_text": "The Askling H-protocol and the Nordic hamstring exercise are both supported by strong evidence for hamstring injury rehabilitation and prevention. Eccentric loading is the cornerstone of hamstring rehabilitation. Early mobilisation is preferred over immobilisation for Grade I-II strains. Return to sport should be based on strength symmetry (>90% LSI), pain-free sprint, and positive clinical assessment rather than time alone.",
+    "avoid_exercises_raw": "sprinting (early), Nordic curl (early), running, yoga forward folds, stiff-leg deadlift (early phase)",
+    "phase_1": "Isometric hamstring contraction, prone lying, pool walking",
+    "phase_2": "Nordic hamstring eccentric (assisted), stability ball curl, Romanian deadlift (bodyweight)",
+    "phase_3": "Jogging, sprint progression, full Nordic, return to sport 6-12 weeks",
+    "supplement_note": "Protein 2.2g/kg/day, Omega-3 3g, Creatine 5g for muscle preservation",
+    "source_citation": "Hickey et al. JOSPT 2022;52(3):CPG1-CPG56"
+  },
+  {
+    "source_type": "jospt_cpg",
+    "guideline_id": "JOSPT-2021-PFPS",
+    "condition": "Patellofemoral Pain",
+    "icd_code": "M22.2",
+    "recommendation_grade": "A",
+    "evidence_level": "I",
+    "recommendation_text": "Combined hip and knee exercise is recommended over knee exercise alone for patellofemoral pain. Patellar taping and foot orthoses may be used as adjuncts. Activity modification is essential. Clinicians should prescribe exercises targeting VMO activation, hip abductor strengthening, and external rotator strengthening. Deep squatting and high-impact activities should be avoided until pain-free.",
+    "avoid_exercises_raw": "deep squats >90 degrees, leg extension machine, running (downhill), plyometrics, stair climbing",
+    "phase_1": "Quad sets, SLR, mini squat 0-45, non-weight-bearing cycling",
+    "phase_2": "Step-up, wall squat, hip strengthening, terminal knee extension",
+    "phase_3": "Wall squat, Bulgarian split squat, jogging on flat surface",
+    "supplement_note": "Glucosamine 1500mg, Chondroitin 1200mg, Collagen 10g, Omega-3 2g",
+    "source_citation": "Witvrouw et al. BJSM 2014; Collins et al. BJSM 2018"
+  },
+  {
+    "source_type": "acsm_guideline",
+    "document": "ACSM Position Stand: Exercise and Overtraining",
+    "condition": "Overtraining Syndrome",
+    "icd_code": "Z73.3",
+    "summary": "Overtraining syndrome (OTS) results from an imbalance between training load and recovery. Hallmarks include performance decline, persistent fatigue, mood disturbance, and hormonal dysregulation. Treatment requires complete reduction of training load, with gradual return based on HRV monitoring, mood scales, and resting heart rate. Sleep quality optimisation is essential. The ACSM recommends a minimum 2-4 week recovery period with active monitoring before return to structured training. Ashwagandha and magnesium supplementation have shown benefits in cortisol regulation.",
+    "training_restrictions": "No high-intensity training, no competition, no heavy lifting",
+    "return_criteria": "Resting HR normalised, HRV improved, mood scales normalised, subjective energy restored",
+    "supplement_recommendations": "Ashwagandha 600mg, Magnesium glycinate 400mg, Zinc 25mg, Vitamin D3, Protein 2g/kg",
+    "source_citation": "ACSM Position Stand 2012; Kreher & Schwartz Sports Health 2012"
+  },
+  {
+    "source_type": "acsm_guideline",
+    "document": "ACSM Guidelines: Stress Fractures in Athletes",
+    "condition": "Tibial Stress Fracture",
+    "icd_code": "M84.362",
+    "summary": "Tibial stress fractures are common in runners and military recruits. Management requires immediate non-weight-bearing for 4-6 weeks. Pool running and upper body training are permitted. Bone stress response on MRI indicates risk of progression to complete fracture. Calcium and Vitamin D optimisation is essential. Return to running should follow a graded protocol with imaging confirmation. Female athletes should be evaluated for the Female Athlete Triad / RED-S.",
+    "training_restrictions": "No running, no jumping, no high impact activity. Crutches if painful walking.",
+    "return_criteria": "Pain-free walking, imaging clearance, 10% mileage increase rule on return",
+    "supplement_recommendations": "Calcium 1500mg/day, Vitamin D3 4000 IU, Vitamin K2 100mcg, Magnesium 400mg",
+    "source_citation": "Warden et al. BJSM 2014; ACSM Bone Stress Injuries Position Stand"
+  },
+  {
+    "source_type": "expert_curated",
+    "injury_name": "Shoulder Impingement Syndrome",
+    "icd_code": "M75.1",
+    "injury_location": "Shoulder",
+    "mechanism": "Repetitive overhead movements, subacromial space narrowing",
+    "symptoms": [
+      "Pain arc 60-120 degrees abduction",
+      "Night pain",
+      "Weakness in external rotation"
+    ],
+    "severity_classification": "Neer Stage I-III",
+    "avoid_exercises": [
+      "Overhead press",
+      "Upright row",
+      "Behind-neck exercises",
+      "Lateral raise above 90 degrees",
+      "Dips wide-arm"
+    ],
+    "phase1_exercises": [
+      "Scapular mobilisation",
+      "Posterior capsule stretch",
+      "Sleeper stretch",
+      "Pendulum"
+    ],
+    "phase2_exercises": [
+      "Rotator cuff ER (side-lying)",
+      "Serratus anterior (wall push-up plus)",
+      "Face pull",
+      "Row variations"
+    ],
+    "phase3_exercises": [
+      "Landmine press",
+      "DB lateral raise (below 90)",
+      "Incline bench press",
+      "Cable fly"
+    ],
+    "supplements": [
+      "Omega-3 2-3g",
+      "Vitamin D3 2000 IU",
+      "Magnesium 300mg"
+    ],
+    "red_flags": [
+      "Night pain worsening",
+      "Significant loss of ROM",
+      "Weakness in ER"
+    ],
+    "medical_imaging": "MRI for ruling out partial/full RC tear; Ultrasound for dynamic assessment",
+    "references": [
+      "Neer Classification 1983",
+      "British Shoulder & Elbow Society Guidelines",
+      "AAOS 2019"
+    ]
+  },
+  {
+    "source_type": "expert_curated",
+    "injury_name": "Lateral Epicondylitis (Tennis Elbow)",
+    "icd_code": "M77.1",
+    "injury_location": "Elbow",
+    "mechanism": "Repetitive wrist extension, gripping activities, overuse of ECRB",
+    "symptoms": [
+      "Lateral elbow pain on palpation",
+      "Pain with wrist extension against resistance",
+      "Grip weakness"
+    ],
+    "severity_classification": "Nirschl Grades 1-7",
+    "avoid_exercises": [
+      "Barbell wrist extension",
+      "Heavy grip exercises",
+      "Reverse curl (early)",
+      "Farmer's carry (early)",
+      "Pull-ups (acute)"
+    ],
+    "phase1_exercises": [
+      "Tyler Twist eccentric wrist extension (3x15)",
+      "Deep friction massage",
+      "Counterforce brace"
+    ],
+    "phase2_exercises": [
+      "Concentric wrist extension (light)",
+      "Forearm supination/pronation",
+      "Light grip squeeze"
+    ],
+    "phase3_exercises": [
+      "Reverse curl",
+      "Hammer curl",
+      "Pull-up",
+      "Farmer's carry",
+      "Progressive loading"
+    ],
+    "supplements": [
+      "Collagen 15g + Vitamin C 50mg 30min pre-exercise",
+      "Omega-3 3g"
+    ],
+    "red_flags": [
+      "Persistent pain >3 months → PRP or shockwave",
+      "Medial pain (rule out golfer's elbow)"
+    ],
+    "medical_imaging": "Ultrasound to assess tendon thickness and partial tearing",
+    "references": [
+      "Nirschl & Pettrone 1979",
+      "BJSM Lateral Epicondylitis Review 2019"
+    ]
+  },
+  {
+    "source_type": "expert_curated",
+    "injury_name": "Plantar Fasciitis",
+    "icd_code": "M72.2",
+    "injury_location": "Foot/Heel",
+    "mechanism": "Repetitive microtrauma to plantar fascia, insufficient recovery",
+    "symptoms": [
+      "First-step morning pain",
+      "Heel tenderness on palpation",
+      "Pain after prolonged sitting"
+    ],
+    "severity_classification": "Mild/Moderate/Severe based on VAS and functional impairment",
+    "avoid_exercises": [
+      "Barefoot running",
+      "Box jumps",
+      "Skipping",
+      "Prolonged walking on hard surfaces",
+      "Aggressive hill running"
+    ],
+    "phase1_exercises": [
+      "Plantar fascia stretch (3x30s morning)",
+      "Towel toe curls",
+      "Calf eccentric drops",
+      "Ice rolling"
+    ],
+    "phase2_exercises": [
+      "Short foot exercise",
+      "Calf raise eccentric (step)",
+      "Single-leg balance",
+      "Swimming"
+    ],
+    "phase3_exercises": [
+      "Gradual running reintroduction",
+      "10% mileage increase rule",
+      "Supportive footwear"
+    ],
+    "supplements": [
+      "Vitamin D3 2000 IU",
+      "Magnesium 400mg",
+      "Collagen 10g"
+    ],
+    "red_flags": [
+      "Night pain",
+      "Bilateral symptoms (rule out systemic cause)",
+      "No improvement in 6 weeks"
+    ],
+    "medical_imaging": "Ultrasound to measure fascia thickness (>4mm pathological)",
+    "references": [
+      "NICE Plantar Fasciitis Guidelines 2023",
+      "Journal of Foot and Ankle Research 2022"
+    ]
+  },
+  {
+    "source_type": "expert_curated",
+    "injury_name": "Hip Flexor Strain (Iliopsoas)",
+    "icd_code": "M62.05",
+    "injury_location": "Hip",
+    "mechanism": "Sudden acceleration/deceleration, overstretching during kicking or sprinting",
+    "symptoms": [
+      "Anterior hip pain",
+      "Pain on resisted hip flexion",
+      "Difficulty climbing stairs"
+    ],
+    "severity_classification": "Grade I (mild) to Grade III (complete tear)",
+    "avoid_exercises": [
+      "Running",
+      "Sprint",
+      "Leg raise",
+      "Sit-up",
+      "Deep lunge",
+      "Cycling (high resistance)"
+    ],
+    "phase1_exercises": [
+      "Standing hip flexor stretch (3x30s)",
+      "Knee-to-chest (supine)",
+      "Heat after 48h",
+      "Gentle walking"
+    ],
+    "phase2_exercises": [
+      "Bridge",
+      "Clamshell",
+      "Dead bug",
+      "Stationary cycling (low resistance)"
+    ],
+    "phase3_exercises": [
+      "Lunge",
+      "Step-up",
+      "Squat",
+      "Running reintroduction at 4-6 weeks"
+    ],
+    "supplements": [
+      "Protein 2g/kg",
+      "Omega-3 2g",
+      "Turmeric 500mg"
+    ],
+    "red_flags": [
+      "Snapping hip with pain (coxa saltans)",
+      "Suspected labral tear → MRI"
+    ],
+    "medical_imaging": "MRI for suspected Grade III or labral involvement",
+    "references": [
+      "Physiopedia Hip Flexor Strain",
+      "ACSM Sports Injury Guidelines"
+    ]
+  },
+  {
+    "source_type": "expert_curated",
+    "injury_name": "Adductor/Groin Strain",
+    "icd_code": "M62.05",
+    "injury_location": "Groin/Adductor",
+    "mechanism": "Sudden change of direction, wide-stance loading, sprinting",
+    "symptoms": [
+      "Medial thigh pain",
+      "Pain on adductor squeeze test",
+      "Reduced hip adduction strength"
+    ],
+    "severity_classification": "Grade I-III (Doha Classification)",
+    "avoid_exercises": [
+      "Sumo squat",
+      "Wide-stance squat",
+      "Hip adduction machine (acute)",
+      "Lateral lunge (acute)",
+      "Sprinting"
+    ],
+    "phase1_exercises": [
+      "RICE",
+      "Isometric adductor squeeze (pillow between knees)",
+      "Gentle walking",
+      "Aquatic therapy"
+    ],
+    "phase2_exercises": [
+      "Copenhagen adductor exercise (3x10)",
+      "Side-lying adduction",
+      "Mini sumo squat"
+    ],
+    "phase3_exercises": [
+      "Sumo deadlift",
+      "Cossack squat",
+      "Lateral agility drills",
+      "Return to sport 6-10 weeks"
+    ],
+    "supplements": [
+      "Collagen 10g",
+      "Vitamin C 500mg",
+      "Omega-3 2g"
+    ],
+    "red_flags": [
+      "Inguinal bulge (hernia)",
+      "Osteitis pubis",
+      "Bilateral pain"
+    ],
+    "medical_imaging": "Ultrasound/MRI for Grade III or osteitis pubis",
+    "references": [
+      "Doha Groin Consensus 2015",
+      "JOSPT Groin Guidelines"
+    ]
+  },
+  {
+    "source_type": "expert_curated",
+    "injury_name": "Cervical Spondylosis with Neck Pain",
+    "icd_code": "M47.812",
+    "injury_location": "Cervical Spine",
+    "mechanism": "Degenerative disc disease, poor posture, repetitive strain",
+    "symptoms": [
+      "Neck stiffness",
+      "Headache",
+      "Referred arm pain (if radiculopathy)",
+      "Crepitus on movement"
+    ],
+    "severity_classification": "Mild/Moderate/Severe based on NDI score and neurological status",
+    "avoid_exercises": [
+      "Behind-neck press",
+      "Behind-neck lat pulldown",
+      "Neck bridges",
+      "Headstand",
+      "Heavy shrugs"
+    ],
+    "phase1_exercises": [
+      "Chin tucks (10 reps x 10 sets/day)",
+      "Neck rotation active",
+      "Scapular squeezes",
+      "Postural correction"
+    ],
+    "phase2_exercises": [
+      "Band face pull",
+      "Prone cobra",
+      "Deep neck flexor strengthening (DNF)"
+    ],
+    "phase3_exercises": [
+      "Shoulder press (neutral DB)",
+      "Pull-up",
+      "Deadlift (neutral neck)",
+      "Gradual loading"
+    ],
+    "supplements": [
+      "Vitamin D3 3000 IU",
+      "Calcium 1000mg",
+      "Omega-3 2g",
+      "B12 1000mcg"
+    ],
+    "red_flags": [
+      "Lhermitte sign",
+      "Arm weakness or wasting",
+      "Bilateral tingling → urgent MRI"
+    ],
+    "medical_imaging": "MRI cervical spine for radiculopathy; X-ray for structural assessment",
+    "references": [
+      "NICE Cervical Guidelines",
+      "Spine Journal 2022"
+    ]
+  }
+]
