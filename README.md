@@ -7,5 +7,9 @@ https://lucent-sherbet-88e44d.netlify.app/
 -AI Diet Recommendation
 -Workout Tracking
 -Indian Diet Plan
-## contibutors 
--Sadiya Kulsum(1HK22CS124)
+# ROLES
+Data Engineer - Avinash
+ML engineers - Sruthi, Rafa, Ravi
+NLP Engineers - Issa, Vrushank
+Backend and Api engineers - Vaastav, Yashwanth
+Ui/Ux engineers - Saayanth, Sadiya, Mahesh D
