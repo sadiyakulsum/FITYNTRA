@@ -18,4 +18,10 @@ Backend and Api engineers - Vaastav, Yashwanth
 
 Ui/Ux engineers - Saayanth, Sadiya, Mahesh D
 
-FINAL WORKING WEBSITE : https://fityntra.netlify.app/
+#FINAL WORKING WEBSITE : https://fityntra.netlify.app/
+
+#Leadership Team
+Vrushank skanda B - President 
+Sadiya Kulsum - Vice President 
+Ravi - Secretary 
+Mohammed Issa Ilyas - Deputy Secretary 
