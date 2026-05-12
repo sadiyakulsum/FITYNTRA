@@ -1,6 +1,6 @@
 # FITYNTRA
 
-Adaptive ML-Based Fitness and Indian Diet Recommendation
+An Adaptive AIML-Driven Fitness and Nutrition Platform with Injury-Aware Wellness Support 
 
 ## Live Demo(Primary Fityntra Dashboard)
 https://lucent-sherbet-88e44d.netlify.app/
@@ -25,6 +25,17 @@ Ui/Ux engineers - Saayanth, Sadiya, Mahesh D
 
 # FINAL WORKING WEBSITE
 https://fityntra.netlify.app/
+
+## Features
+- BMI & TDEE Calculator
+- AI Diet Recommendation
+- Indian Meal Plan Generation
+- Weekly Workout Planner
+- REHA AI Rehabilitation Chatbot
+- Macro & Calorie Tracker
+- Daily Streak Tracking
+- Achievement Badges
+- Progress Charts
 
 # LEADERSHIP TEAM
 - Vrushank Skanda B - President
