@@ -21,7 +21,9 @@ NLP Engineers - Issa, Vrushank
 
 Backend and Api engineers - Vaastav, Yashwanth
 
-Ui/Ux engineers - Saayanth, Sadiya, Mahesh D
+Ui/Ux engineers - Saayanth, Sadiya
+
+Documentation - Prokshith Jain
 
 # FINAL WORKING WEBSITE
 https://fityntra.netlify.app/
